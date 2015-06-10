@@ -31,7 +31,8 @@ for (i=1; i<k; i++){
     }
 
  }
-
+// aqui estan los resultados de los if (calor de pot) como se dijo anteriormente si pot = largo/2 (osea k)
+  es palindromo
  if (pot==k/2){
             printf("\n1\n");
         }
