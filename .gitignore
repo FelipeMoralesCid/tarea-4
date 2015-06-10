@@ -8,12 +8,11 @@ int main()
 {
     char palabra[20];
     int i, j,k,x,pot=0;
-    int palindromo = 1;
     printf("Escribe tu palabra: ");
     gets(palabra);
     k=strlen(palabra);
 
-//estos for son para ordenar las letras en ascii de menos a mayor
+//estos for son para ordenar las letras en ascii de menor a mayor
 for (i=1; i<k; i++){
         for (j=0 ; j<k - 1; j++){
                if (palabra[j] > palabra[j+1]){
